@@ -1,0 +1,12 @@
+a=0x126
+b=0b1010
+c=0o1233
+d=123
+e=-1234
+f=1+2j
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(f))
