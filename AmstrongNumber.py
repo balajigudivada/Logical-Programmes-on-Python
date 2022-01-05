@@ -1,14 +1,12 @@
-num=int(input("Enter number to check it is armstrong number or not "))
-digits= len(str(num))
-rem=0
+n=int(input('Enter number '))
+temp=n
+count=len(str(n))
 sum=0
-temp=num
-while num!=0:
-    rem=num%10 
-    sum=sum+(rem**digits)
-    num=num//10
-
+while(n!=0):
+    rem=n%10
+    sum=sum+rem**count
+    n=n//10
 if temp==sum:
-    print("armstrong number")
+    print('Amstrong')
 else:
-    print("Not a armstrong number")
+    print('Not Amstrong')
